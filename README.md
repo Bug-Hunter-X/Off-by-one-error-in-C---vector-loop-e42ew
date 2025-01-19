@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in C++ when iterating over a `std::vector`. The `bug.cpp` file contains the erroneous code, while `bugSolution.cpp` provides the corrected version.  The error stems from using `i <= vec.size()` in the loop condition, leading to an out-of-bounds access. The solution uses `i < vec.size()` to prevent this error.
